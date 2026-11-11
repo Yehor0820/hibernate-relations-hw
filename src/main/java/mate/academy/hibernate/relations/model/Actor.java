@@ -1,8 +1,11 @@
 package mate.academy.hibernate.relations.model;
 
-import net.bytebuddy.dynamic.TypeResolutionStrategy;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.ManyToOne;
+import javax.persistence.Id;
 
 @Entity
 public class Actor implements Cloneable {

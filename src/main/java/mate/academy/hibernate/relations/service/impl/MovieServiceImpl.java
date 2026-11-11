@@ -8,11 +8,11 @@ import mate.academy.hibernate.relations.service.MovieService;
 import org.hibernate.SessionFactory;
 
 public class MovieServiceImpl implements MovieService {
-   private final MovieDao movieDao;
+    private final MovieDao movieDao;
 
-   public MovieServiceImpl(SessionFactory sessionFactory) {
+    public MovieServiceImpl(SessionFactory sessionFactory) {
         this.movieDao = new MovieDaoImpl(sessionFactory);
-   }
+    }
 
     @Override
     public Movie add(Movie movie) {

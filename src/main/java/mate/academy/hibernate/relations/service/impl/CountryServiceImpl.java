@@ -5,7 +5,6 @@ import mate.academy.hibernate.relations.dao.impl.CountryDaoImpl;
 import mate.academy.hibernate.relations.exception.DataProcessingException;
 import mate.academy.hibernate.relations.model.Country;
 import mate.academy.hibernate.relations.service.CountryService;
-
 import org.hibernate.SessionFactory;
 
 public class CountryServiceImpl implements CountryService {
